@@ -1,0 +1,35 @@
+.chat {
+    display: flex;
+    flex-direction: column;
+    flex: .75;
+    background-color: #363a3f;
+    height: 100vh;
+}
+
+.chat__messages {
+    flex: 1;
+}
+
+.chat__input {
+    margin: 15px;
+    background-color: #474b53;
+}
+
+.chat__input > form {
+    flex: 1;
+}
+
+.chat__input > form > input {
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 15px;
+    outline: none;
+}
+
+.chat__input > form > button {
+    display: none;
+}
